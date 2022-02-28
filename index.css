@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background: black;
+}
+.scoreOnScreen{
+    user-select: none;
+    color: white;
+    position: fixed;
+    font-size: medium;
+}
+.scoreBoardMenu{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    inset: 0;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.scoreBoard{
+    background: white;
+    max-width: medium;
+    width: 25%;
+    padding: 6,6;
+    
+}
+.finalScore{
+    font-size: 32px;
+    font: bold;
+    list-style: none;;
+   
+}
+.points{
+    font-size: large;
+    color: black;
+  }  
+.startBtn{
+    background: rgb(33, 150, 243);
+    color: white;
+    width: 75%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 25px;
+}
